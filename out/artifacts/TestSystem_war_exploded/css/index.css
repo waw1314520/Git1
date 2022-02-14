@@ -1,0 +1,88 @@
+/* 头部 */
+html
+{
+  height:100%;
+}
+body
+{
+  height:100%;
+}
+h1
+{
+  font-size: 3em; 
+  text-align:center;
+  background-color: rgb(171, 219, 219);
+  padding:20px;
+  margin: 0;
+}
+
+h1 a.link,a.visited,a.hover,a.active
+{
+  display: block;
+}
+
+/* 主体 */
+.body /*body类*/
+{
+  width: 100%;
+  height: 100%;
+}
+
+  /* 左侧导航栏 */
+  .nav
+  {
+    background-color: rgb(110, 190, 182);
+    width: 20%;
+    height:100%;
+    float: left;
+  }
+  .nav ul
+  {
+    list-style-type:none;
+   font-size: 2em;
+   margin: 0;
+   padding: 0;
+
+  }
+  .nav li
+  {   
+   text-align: center;
+   padding: 8px;
+  }
+  .nav a:link,a:visited
+  {
+    text-decoration:none;
+    color: white;
+  }
+  .nav li:hover,li:active
+  {
+    background-color: rgb(59, 163, 132);
+  }
+/* 题号 */
+.qnumber
+{
+  text-align:center;
+
+   /* display: none;  */
+}
+.qnumber li
+{
+  display:inline;
+  color: white;
+  font-size: 0.3em;
+ 
+}
+
+  /* 右侧题目 */
+  .question
+  {
+    width: 80%;
+    height:100%;
+    float: left;
+  }
+  iframe
+  {
+    width: 100%;
+    height:100%;
+    border: 0;
+  }

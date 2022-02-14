@@ -1,0 +1,49 @@
+/* 头部 */
+h1
+{
+text-align: center;
+}
+.small 
+{
+  text-align: center;
+  font-size:small;
+}
+
+/* 整体 */
+body
+{
+  background-color:rgb(214, 252, 252);
+}
+
+ .body /*body类 */
+{
+  margin-left:100px;
+  margin-top: 50px;
+}
+
+/* 底部 */
+.button
+{
+  width:100%;
+  height:50px;
+  position: fixed;
+  bottom: 50px;
+  text-align: center;
+}
+
+.button input
+{
+background-color:rgb(23, 156, 145);
+color:white;
+width:90px;
+height:40px;
+font-size: 1.18em;
+font-weight: 500;
+border: 1px solid #ccc;
+}
+
+.button p
+{
+  font-size:small;
+  color:rgb(145, 145, 145);
+}
